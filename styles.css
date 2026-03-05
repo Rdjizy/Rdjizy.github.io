@@ -10,10 +10,7 @@ background:#0F172A;
 color:white;
 }
 
-
-/* HERO */
-
-.hero{
+.TopPanel{
 
 height:1000px;
 
@@ -33,10 +30,6 @@ flex-direction:column;
 align-items:center;
 
 }
-
-
-
-/* NAVBAR */
 
 .navbar{
 
@@ -63,22 +56,14 @@ box-shadow:0 10px 30px rgba(0,0,0,0.25);
 
 }
 
-
-
 .logo img{
 height:220px;
 }
-
-
-
-/* NAV BUTTONS */
 
 .nav-links{
 display:flex;
 gap:20px;
 }
-
-
 
 .login-btn{
 
@@ -97,8 +82,6 @@ cursor:pointer;
 backdrop-filter:blur(10px);
 
 }
-
-
 
 .order-btn{
 
@@ -122,11 +105,7 @@ box-shadow:0 10px 30px rgba(244,63,94,0.45);
 
 }
 
-
-
-/* HERO TEXT */
-
-.hero-content{
+.TopPanel-content{
 
 text-align:center;
 
@@ -136,7 +115,7 @@ max-width:700px;
 
 }
 
-.hero-content h1{
+.TopPanel-content h1{
 
 font-size:56px;
 
@@ -144,7 +123,7 @@ font-weight:700;
 
 }
 
-.hero-content p{
+.TopPanel-content p{
 
 font-size:18px;
 
@@ -153,10 +132,6 @@ margin-top:16px;
 color:#CBD5E1;
 
 }
-
-
-
-/* CTA BUTTON */
 
 .cta-btn{
 
@@ -183,10 +158,6 @@ to bottom,
 box-shadow:0 10px 30px rgba(244,63,94,0.45);
 
 }
-
-
-
-/* CARD */
 
 .cards{
 
@@ -233,8 +204,8 @@ flex-direction:column;
 align-items:center;
 
 text-align:center;
-justify-content: flex-start;
-padding-top: 30px;
+justify-content:flex-start;
+padding-top:30px;
 
 }
 
@@ -262,10 +233,6 @@ color:#CBD5E1;
 
 }
 
-
-
-/* NEON EDGE */
-
 .glass-card::after{
 
 content:"";
@@ -288,10 +255,6 @@ opacity:0.7;
 
 }
 
-
-
-/* LOGIN PANEL BACKGROUND */
-
 .login-panel{
 
 position:fixed;
@@ -310,10 +273,6 @@ align-items:center;
 justify-content:center;
 
 }
-
-
-
-/* LOGIN BOX */
 
 .login-box{
 
@@ -335,10 +294,6 @@ position:relative;
 
 }
 
-
-
-/* CLOSE BUTTON */
-
 .close-btn{
 
 position:absolute;
@@ -357,10 +312,6 @@ color:white;
 cursor:pointer;
 
 }
-
-
-
-/* LOGIN FORM */
 
 .login-box h2{
 
@@ -397,8 +348,6 @@ background:rgba(255,255,255,0.1);
 color:white;
 
 }
-
-
 
 .login-submit{
 
