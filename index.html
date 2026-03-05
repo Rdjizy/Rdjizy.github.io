@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Order2Go</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<div class="hero">
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="Image/logo.png">
+</div>
+
+<div class="nav-links">
+
+<button class="login-btn" onclick="openLogin()">Login</button>
+
+<a href="menu.html">
+    <button class="order-btn">Order Now</button>
+</a>
+
+</div>
+
+</nav>
+
+
+
+<!-- HERO CONTENT -->
+
+<div class="hero-content">
+
+<h1>Order Instantly with QR Code</h1>
+
+<p>
+Scan the QR code at your table to start ordering
+from your smartphone.
+</p>
+
+<a href="menu.html">
+    <button class="cta-btn">Order Now</button>
+</a>
+
+</div>
+
+
+
+<!-- FEATURE CARD -->
+
+<div class="cards">
+
+<div class="glass-card">
+
+<img src="Image/QRcode.png" class="qr-image" alt="QR code">
+
+<h3>Scan QR & Order</h3>
+
+<p>
+Scan the QR code on your table and start ordering
+instantly from your phone.
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+
+<!-- LOGIN PANEL -->
+
+<div class="login-panel" id="loginPanel">
+
+<div class="login-box">
+
+<button class="close-btn" onclick="closeLogin()">×</button>
+
+<h2>Staff Login</h2>
+
+<label>Username</label>
+<input type="text" placeholder="Enter username">
+
+<label>Password</label>
+<input type="password" placeholder="Enter password">
+
+<button class="login-submit">Login</button>
+
+</div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
